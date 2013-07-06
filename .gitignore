@@ -1,0 +1,6 @@
+*.pyc
+*Secret*
+__pycache__
+web
+.project
+.pydevproject

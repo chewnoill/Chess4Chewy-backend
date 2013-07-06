@@ -1,0 +1,20 @@
+indexes:
+- kind: ChessGame
+  properties:
+  - name: players
+  - name: state
+  - name: date_created
+    direction: desc
+    
+- kind: ChessGame
+  properties:
+  - name: state
+  - name: date_created
+    direction: desc
+
+- kind: ChessGame
+  properties:
+  - name: isPublic
+  - name: state
+  - name: date_created
+    direction: desc
