@@ -1,6 +1,9 @@
 Chess4Chewy Backend
 ===================
 
+Chess game GAE backend.  Handles user communcation, game states and 
+move validation.
+
 To send information to the server and retrieve results,
 JSON queries must be sent with a always required `type` 
 field along with any other required fields as well.
